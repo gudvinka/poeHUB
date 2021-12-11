@@ -31,7 +31,12 @@
 			<nav>
 				<ul class="aside-menu">
 					<li class="active">START/PRICE CHECK</li>
-					<li><a href="Harvest.html">HARVEST</a></li>
+					<li id="flasks" onclick="myFunction()">FLASKS"</li>
+					<script>
+						function myFunction() {
+							document.getElementById("flasks").innerHTML = "flasks.html";
+						}
+					</script>
 					<li><a href="/vestibulum/">VESTIBULUM ELIT</a></li>
 					<li><a href="/etiam/">ETIAM PHARETRA</a></li>
 					<li><a href="/phasellus/">PHASELLUS PLACERAT</a></li>
